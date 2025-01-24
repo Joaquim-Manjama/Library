@@ -330,9 +330,6 @@ public class Main {
                     System.exit(0);
                 }
 
-                //DEBUGGING PURPOSES
-                case 6 -> library.displayMembers();
-
                 //IN CASE OF INVALID OPTION
                 default -> System.out.println("Invalid Option!");
             }
